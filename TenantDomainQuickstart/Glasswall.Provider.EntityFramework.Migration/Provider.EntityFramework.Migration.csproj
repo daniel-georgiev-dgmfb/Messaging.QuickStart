@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Glasswall.Platform.Cryptography" Version="1.1.6" />
+    <PackageReference Include="Glasswall.Platform.Cryptography.Stores.Azure" Version="1.1.5" />
+    <PackageReference Include="Glasswall.Providers.EntityFramework" Version="1.1.10" />
+    <PackageReference Include="Glasswall.Providers.Logging.Console" Version="1.0.2" />
+    <PackageReference Include="Glasswall.Providers.Logging.Microsoft" Version="1.1.4" />
+    <PackageReference Include="Glasswall.Providers.Microsoft.DependencyInjection" Version="1.1.4" />
+    <PackageReference Include="Glasswall.Tenant.Management" Version="1.1.14" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="C:\Source\Repos\Glasswall.Domain\Source\Glasswall.FileTrust.Domain\bin\Debug\netstandard2.0\Glasswall.FileTrust.Domain.dll"></Reference>
+    <Reference Include="C:\Source\Repos\Glasswall.Domain\Source\Glasswall.FileTrust.Domain.EF.Mapping\bin\Debug\netstandard2.0\Glasswall.FileTrust.Domain.EF.Mapping.dll"></Reference>
+  </ItemGroup>
+</Project>

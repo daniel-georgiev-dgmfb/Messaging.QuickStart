@@ -1,0 +1,46 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>Provider.EntityFramework.Core</AssemblyName>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Description>Entity framework CRUD imlementation</Description>
+    <Version>1.0.2</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Interceptors\**" />
+    <Compile Remove="Resolvers\**" />
+    <EmbeddedResource Remove="Interceptors\**" />
+    <EmbeddedResource Remove="Resolvers\**" />
+    <None Remove="Interceptors\**" />
+    <None Remove="Resolvers\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="CustomServices\DbModelCacheKey.cs" />
+    <Compile Remove="CustomServices\DbModelCacheKeyFactory.cs" />
+    <Compile Remove="Initialisation\DbInitialiser.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Glasswall.Common.Initialisation" Version="1.0.2" />
+    <PackageReference Include="Glasswall.Kernel.Data" Version="1.0.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Proxies" Version="2.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="2.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Tenancy\" />
+  </ItemGroup>
+
+</Project>

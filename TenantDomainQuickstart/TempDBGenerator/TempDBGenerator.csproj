@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Glasswall.Authorisation.Tokens" Version="1.1.3" />
+    <PackageReference Include="Glasswall.Common.Configuration" Version="1.1.3" />
+    <PackageReference Include="Glasswall.Common.Serialisation.JSON" Version="1.2.4" />
+    <PackageReference Include="Glasswall.Common.Tenancy" Version="1.2.6" />
+    <PackageReference Include="Glasswall.Domain.Tenancy" Version="1.1.8" />
+    <PackageReference Include="Glasswall.Platform.Cryptography" Version="1.1.6" />
+    <PackageReference Include="Glasswall.Platform.Cryptography.Stores.Azure" Version="1.1.5" />
+    <PackageReference Include="Glasswall.Platform.Web.HttpClient" Version="1.0.6" />
+    <PackageReference Include="Glasswall.Platform.Web.Tokens" Version="1.0.7" />
+    <PackageReference Include="Glasswall.Providers.EntityFramework" Version="1.1.10" />
+    <PackageReference Include="Glasswall.Providers.Logging.Console" Version="1.0.2" />
+    <PackageReference Include="Glasswall.Providers.Logging.Debug" Version="1.0.2" />
+    <PackageReference Include="Glasswall.Providers.Logging.Microsoft" Version="1.1.4" />
+    <PackageReference Include="Glasswall.Providers.MemoryCache" Version="1.1.4" />
+    <PackageReference Include="Glasswall.Providers.Microsoft.DependencyInjection" Version="1.1.4" />
+    <PackageReference Include="Glasswall.Tenancy.Domain.EF.Mapping" Version="1.1.4" />
+    <!--<PackageReference Include="Glasswall.Tenancy.Domain.EF.Mapping" Version="1.1.1" />-->
+    <PackageReference Include="Glasswall.Tenant.Management" Version="1.1.14" />
+  </ItemGroup>
+</Project>

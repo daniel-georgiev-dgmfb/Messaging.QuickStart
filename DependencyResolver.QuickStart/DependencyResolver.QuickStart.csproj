@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Glasswall.Common.Configuration" Version="1.1.3" />
+    <PackageReference Include="Glasswall.Providers.DI.Unity" Version="1.1.1" />
+    <PackageReference Include="Glasswall.Providers.Logging.Console" Version="1.0.1" />
+    <PackageReference Include="Glasswall.Providers.Logging.Debug" Version="1.0.1" />
+    <PackageReference Include="Glasswall.Providers.Logging.Microsoft" Version="1.1.1" />
+    <PackageReference Include="Glasswall.Providers.Microsoft.DependencyInjection" Version="1.1.3" />
+  </ItemGroup>
+
+</Project>

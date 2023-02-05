@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Glasswall.Common.Configuration" Version="1.1.3" />
+    <PackageReference Include="Glasswall.Platform.Cryptography" Version="1.1.5" />
+    <PackageReference Include="Glasswall.Platform.Web.Api.Client" Version="1.0.4" />
+    <PackageReference Include="Glasswall.Providers.Logging.Console" Version="1.0.1" />
+    <PackageReference Include="Glasswall.Providers.Logging.Debug" Version="1.0.1" />
+    <PackageReference Include="Glasswall.Providers.Logging.Microsoft" Version="1.1.3" />
+    <PackageReference Include="Glasswall.Providers.Microsoft.DependencyInjection" Version="1.1.3" />
+  </ItemGroup>
+  <ItemGroup>
+    <!--<Reference Include="C:\Src\Glasswall Cloud\GitRepos\Glasswall.Platform.Web\Source\Glasswall.Web.Api.Client\bin\Debug\netstandard2.0\Glasswall.Platform.Web.Api.Client.dll"></Reference>-->
+  </ItemGroup>
+
+</Project>

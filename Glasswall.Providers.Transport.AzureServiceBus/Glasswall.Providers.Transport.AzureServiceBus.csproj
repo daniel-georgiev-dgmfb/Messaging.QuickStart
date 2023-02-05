@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>Glasswall.Providers.Transport.AzureServiceBus</RootNamespace>
+    <AssemblyName>Glasswall.Providers.Transport.AzureServiceBus</AssemblyName>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Description>Provides an API for Azure Service Bus.</Description>
+    <Version>1.1.0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Glasswall.Common.Logging" Version="1.2.5" />
+    <PackageReference Include="Glasswall.Common.MessageHandling" Version="1.2.6" />
+    <PackageReference Include="Glasswall.Common.Transport" Version="1.2.4" />
+    <PackageReference Include="Glasswall.Kernel" Version="1.2.9" />
+    <PackageReference Include="Glasswall.Kernel.Data" Version="1.1.6" />
+    <PackageReference Include="Glasswall.Kernel.Logging" Version="1.1.3" />
+    <PackageReference Include="Glasswall.Kernel.Messaging" Version="1.1.2" />
+    <PackageReference Include="Glasswall.Kernel.Transport" Version="1.1.1" />
+    <PackageReference Include="Glasswall.Providers.Resilience.Polly" Version="1.0.3" />
+    <PackageReference Include="Microsoft.Azure.ServiceBus" Version="3.1.0" />
+  </ItemGroup>
+
+</Project>
